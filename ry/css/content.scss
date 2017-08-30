@@ -1,0 +1,259 @@
+*{margin:0;padding: 0;box-sizing: border-box;}
+a{
+    text-decoration: none;
+    color: #333;
+}
+img{margin:0;padding:0;vertical-align: top;}
+header{
+    height: 180px;width:100%;
+    .top{height:26px;background:#8EAB54;
+        .top_main{width:1170px;margin:0 auto;
+            .pull_left{float: left;
+                span{color: #e9e9e9;font-size: 14px;display: inline-block;line-height: 26px;}
+                img{margin-right: 10px;margin-top: -4px;vertical-align: middle;}
+                &:nth-child(1){margin-right: 30px;}
+            }
+        }
+    }
+    .nav{padding-left: 0;margin-bottom: 0;list-style: none;padding: 47px 0;transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;position:relative;z-index: 99;background:#fff;width:100%;
+        .container{width:1170px;margin:0 auto;
+            .row{text-align: center;
+                ul{margin: 0;display: inline-block;list-style: none;
+                    li{width: 130px;height: 55px;line-height: 55px;float: left;text-align: center;
+                        a{color: #595959;transition: all .3s ease;}
+                        a:hover{color:#8EAB54;}
+                    }
+                }
+            }
+        }
+    }
+    .xs{position:fixed;box-sizing: border-box;top: -26px;box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;height:120px;}
+}
+.banner{
+    width: 100%;
+    height: auto;
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+.main{
+    width: 100%;
+    padding: 74px 0 0;
+    overflow: hidden;
+    .title{
+        width: 1200px;
+        margin: 200px auto 0;
+        opacity: 0;
+        text-align: center;
+        h1{
+            font: 27px/45px "microsoft yahei";
+            color: #595959;
+            text-align: center;
+        }
+        img{
+            margin: 40px 0;
+        }
+    }
+   .main-content{
+       width: 1200px;
+       margin: 60px auto;
+       .contact-method{
+           height: 220px;
+           width: 1200px;
+           margin-bottom: 90px;
+           .main-left{
+               float: left;
+               width: 50%;
+               height: 100%;
+               position: relative;
+               margin-left: -600px;
+               opacity: 0;
+               .phone{
+                   .pic{
+                       width: 40px;
+                       height: 50px;
+                       float: left;
+                       text-align: center;
+                       margin-right: 10px;
+                       img{
+                           margin-top: 15%;
+                           width: 70%;
+                           height: 70%;
+                        }
+                   }
+                   p{
+                        float: left;
+                        font: 26px/24px "microsoft yahei";
+                        color: #9A9A9A;
+                        span{
+                            font: 16px/16px "microsoft yahei";
+                        }
+                   }
+               }
+               ul{
+                   list-style: none;
+                   position: absolute;
+                   bottom: 0;
+                   left: 0;
+                   li{
+                       height: 30px;
+                       font: 14px/30px "microsoft yahei";
+                       color: #9A9A9A;
+                   }
+               }
+           }
+           .main-right{
+               width: 50%;
+               height: 100%;
+               float: right;
+               margin-right: -600px;
+               opacity: 0;
+               input{
+                   border: none;
+                   outline: none;
+                   border-bottom:1px solid #9A9A9A;
+                   width: 45%;
+                   font-size: 12px;
+               }
+               .name{float: left;}
+               .telephone{float: right;}
+               textarea{
+                   border: none;
+                   outline: none;
+                   border-bottom:1px solid #9A9A9A;
+                   float: left;
+                   width: 100%;
+                   margin:50px 0 0;
+                   height: 70px;
+                   font-size: 12px;
+               }
+               button{
+                   float: left;
+                   margin: 40px 0;
+                   color: white;
+                   height: 24px;
+                   border: none;                   
+                   font: 12px/24px "microsoft yahei";
+                   width: 100px;
+                   border-radius: 12px;
+                   background: #819C4C;
+                   text-align: center;
+                   transition: all .3s;
+               }
+               button:hover{
+                   width: 120px;
+               }
+           }
+       }
+       .agency{
+           width: 1200px;
+           height: 180px;
+           margin: 100px 0;
+           overflow: hidden;
+           ul{
+               list-style: none;
+               width: 100%;
+               height: 100%;
+               
+               li{
+                   width: 25%;
+                   height: 100%;
+                   float: left;
+                   padding-left: 3%;
+                   margin-top: 150px;
+                   opacity: 0;
+                   div{
+                       width: 100%;
+                       height:60px;
+                       font-size: 20px;
+                       color: #595959;
+                   }
+                   ul{
+                       list-style: none;
+                       width: 100%;
+                       li{
+                           width: 100%;
+                           height: 30px;
+                           font: 14px/30px "microsoft yahei";
+                           color: #595959;
+                           padding: 0;
+                           margin-top: 0px;
+                           opacity: 1;
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
+.coopration{
+    width: 100%;
+    height: 280px;
+    background:#819C4C;
+    overflow: hidden;
+    .co-container{
+        width: 1200px;
+        margin: 0 auto;
+        .co-left{
+            float: left;
+            margin-left: -1000px;
+            opacity: 0;
+            ul{
+               list-style: none;
+               float: left;
+               padding-top: 20px;
+               div{
+                   font: 18px/40px "microsoft yahei";
+                   height: 40px;
+                   color: white;
+               }
+               li{
+                    font: 15px/30px "microsoft yahei";
+                   height: 30px;
+                   color: #cfcfcf;
+                   
+               } 
+               li:hover{
+                   color: white;
+                   cursor: pointer;
+               }
+            }
+            ul~ul{
+                margin-left: 70px;
+            }
+        }
+        .co-right{
+            padding-top:65px;
+            float: right;
+            margin-right: -1000px;
+            opacity: 0;
+            h1{
+                color: white;
+                font-size: 30px;
+                height: 60px;
+            }
+            p{
+                font: 14px/20px "microsoft yahei";
+                color: #cfcfcf;
+                width: 210px;
+                text-align: right;
+            }
+        }
+    }
+}
+
+footer{height: 52px;width: 100%;color: #999999;font-size: 12px;line-height: 52px;background: #595959;overflow: hidden;
+    .container{width:1170px;margin:0 auto;overflow:hidden;
+        .row{height:52px;line-height: 52px;margin-top: 52px;
+            .left{float:left;
+                ul{list-style: none;line-height: 52px;
+                    li{float:left;
+                        a{color: #8C8C8C;font-size: 12px;border-right: 1px solid #999;display: inline-block;padding-right: 12px;line-height: 12px;padding-left: 12px;}
+                    }
+                }
+            }
+            .right{float:right;}
+        }
+    }
+}
